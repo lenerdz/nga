@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Só de Cenoura Garçom</title>
-    <link rel="stylesheet" href="icons/material.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>NCA</title>
+	<link rel="stylesheet" href="icons/material.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
-	<div class="topo-fixo z-depth-1">
-		<div class="yellow darken-4 white-text valign-wrapper">
-			<h4 class="titulo">Nerd Character Assistant</h4>
-			<div>
-				<i data-activates="submenu" data-gutter="5" data-beloworigin="true" data-contrainwidth="false" class="material-icons waves-effect waves-light waves-circle dropdown-button">more_vert</i>
-			</div>
+	<ul id="slide-out" class="side-nav">
+		<li><a href="#!">First Sidebar Link</a></li>
+		<li><a href="#!">Second Sidebar Link</a></li>
+	</ul>
 
+
+	<div class="topo-fixo z-depth-1">
+		<div class="blue darken-1 white-text valign-wrapper">
+			<div>
+				<i data-activates="slide-out" class="material-icons waves-effect waves-light waves-circle button-collapse">dehaze</i>
+			</div>
+			<h5 class="titulo center-align">Personagem</h5>
+			<div>
+				<i data-activates="submenu" data-gutter="5" data-beloworigin="true" data-contrainwidth="false" class="material-icons waves-effect waves-light waves-circle dropdown-button">casino</i>
+			</div>
 			<ul class="dropdown-content" id="submenu">
 				<li><a class="black-text acao-limpar">Limpar</a></li>
 			</ul>
 		</div>
 	
-		<ul class="tabs yellow darken-4">
-			<li class="tab"><a href="#bolos" class="waves-effect white-text waves-light">Bolos</a></li>
-			<li class="tab"><a href="#bebidas" class="waves-effect white-text waves-light">Bebidas</a></li>
+		<ul class="tabs blue darken-1">
+			<li class="tab"><a href="#stats" class="waves-effect white-text waves-light"><i class="material-icons">equalizer</i></a></li>
+			<li class="tab"><a href="#advantages" class="waves-effect white-text waves-light"><i class="material-icons">mood</i></a></li>
+			<li class="tab"><a href="#disadvantages" class="waves-effect white-text waves-light"><i class="material-icons">mood_bad</i></a></li>
+			<li class="tab"><a href="#skills" class="waves-effect white-text waves-light"><i class="material-icons">school</i></a></li>
+			<li class="tab"><a href="#spells" class="waves-effect white-text waves-light"><i class="material-icons">flash_on</i></a></li>
+			<li class="tab"><a href="#items" class="waves-effect white-text waves-light"><i class="material-icons">local_mall</i></a></li>
+			<li class="tab"><a href="#notes" class="waves-effect white-text waves-light"><i class="material-icons">note_add</i></a></li>
 		</ul>
 	</div>
 
-	
 
-	<div class="section" id="bolos">
+
+	<div class="section" id="stats">
 		<h6 class="container brown-text">Pedaço</h6>
 		<div class="collection">
 			<a class="collection-item waves-effect black-text">
@@ -61,7 +75,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="section" id="bebidas">
+	<div class="section" id="advantages">
 		<h6 class="container brown-text">Cafés</h6>
 		<div class="collection">
 			<a class="collection-item waves-effect black-text">
@@ -87,15 +101,163 @@
 			</a>
 		</div>
 	</div>
-	<div class="fixed-action-btn" id="confirmar">
-		<a href="#confirmacao" class="btn-floating btn-large waves-effect waves-light brown modal-trigger">
-			<i class="material-icons">done</i>
-		</a>
+	<div class="section" id="disadvantages">
+		<h6 class="container brown-text">Cafés</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Expresso
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Capucinno
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Mochachino
+			</a>
+		</div>
+		<h6 class="container brown-text">Refrigerantes</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Coca
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Soda
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Guaraná
+			</a>
+		</div>
+	</div>
+	<div class="section" id="skills">
+		<h6 class="container brown-text">Cafés</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Expresso
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Capucinno
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Mochachino
+			</a>
+		</div>
+		<h6 class="container brown-text">Refrigerantes</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Coca
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Soda
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Guaraná
+			</a>
+		</div>
+	</div>
+	<div class="section" id="spells">
+		<h6 class="container brown-text">Cafés</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Expresso
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Capucinno
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Mochachino
+			</a>
+		</div>
+		<h6 class="container brown-text">Refrigerantes</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Coca
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Soda
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Guaraná
+			</a>
+		</div>
+	</div>
+	<div class="section" id="items">
+		<h6 class="container brown-text">Cafés</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Expresso
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Capucinno
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Mochachino
+			</a>
+		</div>
+		<h6 class="container brown-text">Refrigerantes</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Coca
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Soda
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Guaraná
+			</a>
+		</div>
+	</div>
+	<div class="section" id="notes">
+		<h6 class="container brown-text">Cafés</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Expresso
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Capucinno
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Mochachino
+			</a>
+		</div>
+		<h6 class="container brown-text">Refrigerantes</h6>
+		<div class="collection">
+			<a class="collection-item waves-effect black-text">
+				Coca
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Soda
+			</a>
+			<a class="collection-item waves-effect black-text">
+				Guaraná
+			</a>
+		</div>
 	</div>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/index.js"></script>
+
+	<div class="fixed-action-btn horizontal click-to-toggle">
+		<a class="btn-floating btn-large red pulse" id="menu">
+			<i class="large material-icons">mode_edit</i>
+		</a>
+		<ul>
+			<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+			<li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+			<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+			<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+		</ul>
+	</div>
+
+<div class="tap-target blue" data-activates="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
