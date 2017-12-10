@@ -7,5 +7,6 @@ $(document).ready(function() {
     //$('.tap-target').tapTarget('open');
     $('ul.tabs').tabs({
         swipeable: true,
+        responsiveThreshold : Infinity
     });
 });
